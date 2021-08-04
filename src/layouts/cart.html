@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+{{>head}}
+<body>
+  {{>header}}
+  <main>
+    <div class="container">
+      {{>breadcrumbs}}
+
+      <span class="title h3">Оформление заказа</span>
+
+      <div class="product_table">
+        <div class="product_table__title_line">
+          <div class="product_table__box product_info_box">Наименование товара</div>
+          <div class="product_table__box product_description_box">Описание</div>
+          <div class="product_table__box product_ontrol_box">Количество</div>
+        </div>
+        <div class="product_table__main_content">
+          <div class="product_table__element">
+            <a href="#" class="mobile_dell mobile_visible"><img src="assets/img/icons/close.svg"></a>
+            <a href="#" class="title">ЖК дисплей для видеостен 55″ LG 55VM5E</a>
+            <div class="product_table__box product_info_box">
+              <div class="img_box">
+                <img src="assets/img/card-3.png" alt="">
+              </div>
+              <a href="#" class="dell">Удалить</a>
+            </div>
+            <div class="product_table__box product_description_box">
+              <div class="description">
+                <p>Профессиональный LED-дисплей высокой производительности с улучшенной поддержкой 3D-графики и повышенной степенью безопасности.</p>
+                <p>Поддержка сенсорного режима управления полностью реализована на ОС Samsung TIZEN без использования специального ПК.</p>
+              </div>
+              
+            </div>
+            <div class="product_table__box product_ontrol_box">
+              <div class="product_counter">
+                <div class="product_counter__wrapper d-flex">
+                  <div class="product_counter__minus">-</div>
+                  <div class="product_counter__count"><input type="text" value="1"></div>
+                  <div class="product_counter__plus">+</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product_table__element">
+            <a href="#" class="title">ЖК дисплей для видеостен 55″ LG 55VM5E</a>
+            <div class="product_table__box product_info_box">
+              
+              <div class="img_box">
+                <img src="assets/img/card-3.png" alt="">
+              </div>
+              <a href="#" class="dell">Удалить</a>
+            </div>
+            <div class="product_table__box product_description_box">
+              <div class="description">
+                <p>Профессиональный LED-дисплей высокой производительности с улучшенной поддержкой 3D-графики и повышенной степенью безопасности.</p>
+                <p>Поддержка сенсорного режима управления полностью реализована на ОС Samsung TIZEN без использования специального ПК.</p>
+              </div>
+            </div>
+            <div class="product_table__box product_ontrol_box">
+              <div class="product_counter">
+                <div class="product_counter__wrapper d-flex">
+                  <div class="product_counter__minus">-</div>
+                  <div class="product_counter__count"><input type="text" value="1"></div>
+                  <div class="product_counter__plus">+</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="confirm">
+        <span class="title h3">Подтверждение заказа</span>
+        
+        <div class="d-flex">
+          <div class="form w-5">
+            <form action="#" class="d-flex-wrap">
+              <div class="form_error">*Данные не заполнены </div>
+              <div class="input_box d-flex w-10">
+                <input type="text" class="w-5" placeholder="Ваше имя">
+                <input type="text" class="w-5" name="phone" placeholder="Телефон">
+              </div>
+              <input type="text" class="w-10" placeholder="Ваш e-mail">
+              <textarea class="w-10" placeholder="Сообщение"></textarea>
+              <button type="submit" class="btn">отправить</button>
+            </form>
+          </div>
+          <div class="confirm__text d-flex-column w-5">
+            <p>Мы свяжемся с вами, чтобы подтвердить наличие товара, проконсультировать по доставке и установке товара и оформить ваш заказ</p>
+            <p>Если у вас возникли вопросы, звоните</p>
+            <a href="#">+375 17 ‎224 33 88</a>
+            <a href="#">+375 33 373 33 88</a>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    
+    {{>map_section}}
+
+    {{>question_form}}
+  </main>
+    {{>footer}}
+  </body>
+  </html>
